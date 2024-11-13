@@ -1,21 +1,21 @@
 public class Author {
 
-    private final String authorName;
-    private final String authorSurname;
+    private final String name;
+    private final String surname;
 
     @Override
     public String toString() {
-        return authorName + " " + authorSurname;
+        return name + " " + surname;
     }
 
     public Author(String authorName, String authorSurname){
-        this.authorName = authorName;
-        this.authorSurname = authorSurname;
+        this.name = authorName;
+        this.surname = authorSurname;
     }
     public String getAuthorName(){
-        return authorName;
+        return name;
     }
     public String getAuthorSurname(){
-        return authorSurname;
+        return surname;
     }
 }
